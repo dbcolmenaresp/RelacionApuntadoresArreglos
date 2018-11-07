@@ -17,7 +17,7 @@ A continuación se declara un arreglo de datos numéricos enteros con una capaci
 // Se declara un arreglo de enteros de cinco elementos
 int b[] = {1,2,3,4,5};
 
-Un apuntador es una variable que contiene una dirección de memoria que corresponde a la ubicación de otra variable en memora.
+Un [apuntador](https://github.com/dbcolmenaresp/apuntadoresenCplusplus) es una variable que contiene una dirección de memoria que corresponde a la ubicación de otra variable en memora.
 
 Un apuntador se declara con un tipo base, el símbolo * y el nombre del apuntador, de la siguiente manera:
 tipodato *nombreapuntador;
