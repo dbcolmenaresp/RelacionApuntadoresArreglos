@@ -1,4 +1,4 @@
-# Relación entre apuntadores y arreglos en lenguaje C
+# Relación entre apuntadores y arreglos en lenguaje C++
 
 Los arreglos y los apuntadores están estrechamente relacionados y se pueden utilizar de manera casi intercambiable. El nombre de un arreglo puede considerarse como un apuntador al primer elemento de dicho arreglo. 
 
@@ -6,10 +6,10 @@ Un arreglo es una colección de variables del mismo tipo que se referencian por 
 
 Físicamente los elementos de un arreglo están ubicados en posiciones de memoria contiguas.
 
-La forma general de declarar un arreglo unidimensional  es declarar el tipo de variable que va a almacenar el arreglo, el nombre del arreglo y el número de elementos que va a contener dicho arreglo, de la siguiente manera:
+La forma general de declarar un arreglo unidimensional  es declarar el tipo de variable que va a almacenar el arreglo, el nombre del arreglo y el número de elementos que va a contener dicho arreglo, de la siguiente manera:  
 tipodato nombrearreglo[tamaño];
 
-Una forma alternativa de definir un arreglo es indicando el tipo de variable que va a almacenar el arreglo, el nombre del arreglo y una lista de los elementos que va a almacenar dicho arreglo, como se indica a continuación:
+Una forma alternativa de definir un arreglo es indicando el tipo de variable que va a almacenar el arreglo, el nombre del arreglo y una lista de los elementos que va a almacenar dicho arreglo, como se indica a continuación:  
 tipodato nombrearreglo[] = {lista de elementos del tipo tipodato}
 
 A continuación se declara un arreglo de datos numéricos enteros con una capacidad de almacenar 5 variables enteras en total:
@@ -21,7 +21,7 @@ int b[] = {1,2,3,4,5};
 
 Un [apuntador](https://github.com/dbcolmenaresp/apuntadoresenCplusplus) es una variable que contiene una dirección de memoria que corresponde a la ubicación de otra variable en memora.
 
-Un apuntador se declara con un tipo base, el símbolo * y el nombre del apuntador, de la siguiente manera:
+Un apuntador se declara con un tipo base, el símbolo * y el nombre del apuntador, de la siguiente manera:  
 tipodato *nombreapuntador;
 
 Supongamos que definimos un apuntador a variables de tipo entero mediante  la siguiente declaración
@@ -129,3 +129,5 @@ Realice un programa en lenguaje C++ que recorra el arreglo de enteros b a travé
 Colección Aprenda como si estuviera en primero  
 http://www4.tecnun.es/recursos/labmat0.html
 
+Fundamentos de C++
+https://github.com/dbcolmenaresp/FundamentosCplusplus
