@@ -63,10 +63,10 @@ Existen diferentes maneras de acceder al contenido de un arreglo, a través del 
 
 Las siguientes sentencias son equivalentes:
 
-b[0];  
-*intPtr;  
-*b;  
-intPtr[0];  
+* b[0];  
+* *intPtr;  
+* *b;  
+* intPtr[0];  
 
 A continuación se indican las diferentes maneras de acceder al primer elemento del arreglo de enteros b[] y mostrar su contenido:
 
@@ -100,7 +100,7 @@ cout << "\nEl tercer elemento del arreglo es: intPtr[2] =    " << intPtr[2] << e
 
 Para realizar el recorrido del arreglo se puede hacer de diferentes formas según las alternativas de representación del arreglo que existen:
 
-Se puede recorrer el arreglo a través de sus índices:
+* Se puede recorrer el arreglo a través de sus índices:
 
 ~~~
 // Recorrido del arreglo b a través de sus indices
@@ -110,7 +110,7 @@ for(int i = 0; i < n; i++){
 }
 ~~~
 
-Se puede recorrer el arreglo por incremento del valor del apuntador:
+* Se puede recorrer el arreglo por incremento del valor del apuntador:
 
 ~~~
 // Recorrido del arreglo b a través del puntero intPtr
@@ -122,12 +122,12 @@ for(int i = 0; i < n; i++){
 
 ## Actividad 
 
-Realice un programa en lenguaje C++ que recorra el arreglo de enteros b a través de los restantes formatos de acceso que se presentaron con anterioridad
+Realice un programa en lenguaje C++ que recorra el arreglo de enteros b[] a través de los restantes formatos de acceso a los elementos del arreglo que se presentaron con anterioridad
 
 ## Referencias
 
 Colección Aprenda como si estuviera en primero  
 http://www4.tecnun.es/recursos/labmat0.html
 
-Fundamentos de C++
+Fundamentos de C++  
 https://github.com/dbcolmenaresp/FundamentosCplusplus
