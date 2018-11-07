@@ -28,7 +28,8 @@ Una vez asignado el valor de la dirección del primer elemento del arreglo al ap
 // Se muestra la direccion del primer elemento del arreglo de enteros b y el valor asignado al apuntador intPtr
 cout << "\nLa direccion de memoria del primer elemento del arreglo b es: " << b << endl;
 cout << "\nLa direccion de memoria contenida en el apuntador intPtr es:  " << intPtr << endl;
-Formatos de acceso a los elementos de un arreglo
+## Formatos de acceso a los elementos de un arreglo
+
 Existen diferentes maneras de acceder al contenido de un arreglo, a través del nombre del arreglo o a través del apuntador que toma el valor del primer elemento de dicho arreglo, en la siguiente línea se indican las diferentes formas de hacer referencia al primer elemento del arreglo:
 Las siguientes sentencias son equivalentes:
 b[0];  
@@ -65,4 +66,5 @@ cout << "\nRecorrido del arreglo b a través del puntero intPtr\n";
 for(int i = 0; i < n; i++){
 	cout << "*(intPtr + " << i << ") " << *(intPtr + i) << endl;
 }
-Actividad: realice un programa en lenguaje C++ que recorra el arreglo de enteros b a través de los restantes formatos de acceso que se presentaron con anterioridad
+## Actividad 
+Realice un programa en lenguaje C++ que recorra el arreglo de enteros b a través de los restantes formatos de acceso que se presentaron con anterioridad
